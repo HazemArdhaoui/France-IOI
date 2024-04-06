@@ -1,0 +1,12 @@
+#include <stdio.h>
+#define repeat(nb) for (int _loop =100,_max = 0 ; _loop >= _max ; _loop--)
+int main(){
+   repeat(100){
+   
+    printf("%d\n",_loop);
+   
+   
+              }
+printf("Décollage ! ");
+
+         }

@@ -1,0 +1,15 @@
+#include "robot.h"
+#define repeat(nb) for (int _loop = 1, _max = (nb); _loop <= _max; _loop++)
+int main()
+{
+   int somme , cube = 17;
+   
+   do{ 
+     somme =cube*cube*cube;
+     cube =cube-2;
+      
+   }
+   
+}
+
+

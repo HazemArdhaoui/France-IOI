@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int bonbons_actuels = 0;
+    
+    for (int i = 1; i <= 50; i++) {  // On boucle de 1 à 50 tirs possibles
+        bonbons_actuels += i;  // On ajoute le nombre de bonbons pour ce tir
+        printf("%d\n", bonbons_actuels); // Affichage du nombre total de bonbons pour ce tir
+    }
+
+    return 0;
+}

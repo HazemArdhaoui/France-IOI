@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<robot.h>
+#define repeat(nb) for(int min=1,max=(nb);min<=max;min++)
+
+int main(){
+   repeat(21){
+      haut();
+      droite();
+      
+   }
+   repeat(21){
+      
+      gauche();
+      bas();
+
+
+}}
